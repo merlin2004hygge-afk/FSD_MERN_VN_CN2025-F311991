@@ -1,0 +1,40 @@
+.main{
+    background-color: white;
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+#static{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    position: static;
+}
+#relative{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+#absolute{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(11, 184, 184);
+    position: absolute;
+    top: 180px;
+    left:180px
+}
+#fixed{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:plum;
+    position: fixed;
+    top:180px;
+}

@@ -1,0 +1,7 @@
+button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    border-color: transparent;
+}
