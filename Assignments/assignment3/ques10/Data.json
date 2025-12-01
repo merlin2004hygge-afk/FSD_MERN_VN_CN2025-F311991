@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "A smooth and responsive wireless mouse.",
+    "price": "$15.99"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "description": "A durable mechanical keyboard with RGB lighting.",
+    "price": "$49.99"
+  },
+  {
+    "id": 3,
+    "name": "Noise Cancelling Headphones",
+    "description": "Comfortable over-ear headphones with active noise cancellation.",
+    "price": "$89.99"
+  },
+  {
+    "id": 4,
+    "name": "USB-C Charger",
+    "description": "Fast-charging USB-C power adapter.",
+    "price": "$19.50"
+  },
+  {
+    "id": 5,
+    "name": "Portable SSD",
+    "description": "High-speed 512GB portable SSD storage.",
+    "price": "$79.00"
+  }
+]
