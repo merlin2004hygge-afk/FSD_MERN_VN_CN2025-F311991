@@ -1,0 +1,194 @@
+.home-page-container {
+  max-width: 100%;
+  padding:0;
+  margin: 0;
+  font-size: large;
+}
+
+.hero-section {
+  width: 100%;
+  background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('https://img.freepik.com/premium-photo/diverse-group-students-studying-together-library_14117-849095.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 0;   
+  text-align: center;
+  border-radius: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+  
+}
+
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  color: white; 
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+background: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-button:hover {
+  background-color: white;
+  transform: translateY(-2px);
+}
+
+.why-us-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #e6f0ff; 
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.why-us-section h2{
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.reason-card {
+  position: relative;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.reason-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* makes the image fit perfectly */
+  z-index: 1;
+}
+
+.reason-card p {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.45); /* faint black overlay for readability */
+  width: 100%;
+}
+
+
+.reasons-grid div {
+  background-color: white;
+  padding: 1.5rem;
+  border-left: 5px solid #004d99;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.reasons-grid div:hover{
+     background-color: goldenrod;
+    transform: scale(1.05);
+}
+
+.top-depts-section {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.top-depts-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+
+.departments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+
+.dept-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+  text-align: left;
+  border-left: 5px solid #1c4996;
+  position: relative;
+}
+
+.dept-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.dept-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #385382;
+}
+
+/* CARD TEXT */
+.dept-card p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+
+.all-depts-button {
+  display: inline-block;
+  background-color: #004d99;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.all-depts-button:hover {
+  background-color: #003366;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+}

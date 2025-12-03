@@ -1,0 +1,50 @@
+.department-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.department-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #004d99;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+  flex-grow: 1; 
+  margin-bottom: 1.5rem;
+}
+
+.view-more-button {
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #004d99;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+  background-color: #ffdb4d;
+}
+
+.view-more-button:hover {
+  background-color: #ffdb4d;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science & Engineering",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.y1UfJIOcLkrffQfS5cQRgwHaE8?pid=Api&P=0&h=220",
+    "shortDescription": "Focuses on software, algorithms, data structures, and computing.",
+    "fullDescription": "The Computer Science and Engineering department is dedicated to educating students in cutting-edge technologies, covering areas like Artificial Intelligence, Machine Learning, Operating Systems, and advanced programming paradigms. We provide a robust curriculum that prepares students for the future of tech.",
+    "courses": ["Data Structures & Algorithms (DSA)", "Operating Systems (OS)", "Database Management Systems (DBMS)", "Machine Learning"],
+    "faculty": ["Dr. Ankit Kumar (HOD)", "Dr. Meena Singh", "Prof. Rakesh Varma"],
+    "labs": ["Programming Lab", "Networks & Security Lab", "AI/ML Research Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.y1UfJIOcLkrffQfS5cQRgwHaE8?pid=Api&P=0&h=220",
+    "shortDescription": "Deals with application development, network management, and data security.",
+    "fullDescription": "The IT department prepares students to manage and secure complex information systems. Key focus areas include cloud computing, cybersecurity, web development, and enterprise resource planning. Our graduates are equipped for roles in system analysis and IT infrastructure.",
+    "courses": ["Cloud Computing", "Cyber Security", "Web Technologies", "IT Infrastructure Management"],
+    "faculty": ["Prof. Suresh Reddy", "Dr. Priya Bansal"],
+    "labs": ["Data Center Lab", "Security Operations Center Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.y1UfJIOcLkrffQfS5cQRgwHaE8?pid=Api&P=0&h=220",
+    "shortDescription": "Covers electronic circuits, communication systems, and embedded technologies.",
+    "fullDescription": "The ECE department is at the forefront of designing and developing electronic devices, circuits, and communication systems. The curriculum offers deep knowledge in VLSI design, wireless communication, signal processing, and embedded systems.",
+    "courses": ["Digital Communication", "VLSI Design", "Embedded Systems", "Analog Circuits"],
+    "faculty": ["Dr. K. Srinivas", "Prof. Lalitha Devi"],
+    "labs": ["Circuits & Devices Lab", "Communication Systems Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.y1UfJIOcLkrffQfS5cQRgwHaE8?pid=Api&P=0&h=220",
+    "shortDescription": "Focuses on design, analysis, manufacturing, and maintenance of mechanical systems.",
+    "fullDescription": "The Mechanical Engineering department offers a diverse program covering thermodynamics, materials science, robotics, and fluid mechanics. Our hands-on approach ensures students gain practical expertise in modern industry demands.",
+    "courses": ["Robotics", "Fluid Mechanics", "Thermodynamics", "CAD/CAM"],
+    "faculty": ["Dr. J. Mohan", "Prof. S. Karthik"],
+    "labs": ["Robotics Lab", "Thermal Engineering Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.y1UfJIOcLkrffQfS5cQRgwHaE8?pid=Api&P=0&h=220",
+    "shortDescription": "Deals with the design, construction, and maintenance of the physical and naturally built environment.",
+    "fullDescription": "Civil Engineering is an ever-green field focusing on infrastructure development. Our curriculum emphasizes structural analysis, transportation engineering, and environmental engineering, preparing students to build a sustainable future.",
+    "courses": ["Structural Analysis", "Geotechnical Engineering", "Transportation Engineering", "Water Resource Management"],
+    "faculty": ["Dr. R. Palani", "Prof. G. Vani"],
+    "labs": ["Material Testing Lab", "Surveying Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration (MBA)",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.y1UfJIOcLkrffQfS5cQRgwHaE8?pid=Api&P=0&h=220",
+    "shortDescription": "A comprehensive program designed to develop management and leadership skills.",
+    "fullDescription": "The MBA program prepares students for leadership roles across various sectors. Key specializations include Finance, Marketing, Human Resources, and Operations Management, blending theoretical knowledge with real-world case studies.",
+    "courses": ["Financial Management", "Marketing Strategy", "Organizational Behavior", "Operations Research"],
+    "faculty": ["Dr. L. Ganesh", "Prof. N. Sowmya"],
+    "labs": ["Case Study Center", "Financial Modeling Lab"]
+  }
+]

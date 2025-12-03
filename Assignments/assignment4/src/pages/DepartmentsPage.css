@@ -1,0 +1,17 @@
+.departments-page {
+  padding: 2rem 1rem;
+  font-size: large;
+}
+
+.departments-grid-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .departments-grid-page {
+    grid-template-columns: 1fr;
+  }
+}
