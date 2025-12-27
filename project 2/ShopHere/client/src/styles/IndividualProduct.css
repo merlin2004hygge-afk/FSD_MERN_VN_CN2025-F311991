@@ -1,0 +1,175 @@
+/* ================= PAGE ================= */
+.IndividualProduct-page {
+  background: radial-gradient(circle at top, #141414, #0b0b0b);
+  color: #f5f5f5;
+  min-height: 100vh;
+  padding: 30px 5vw;
+}
+
+/* ================= BACK BUTTON ================= */
+.IndividualProduct-page > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #d4af37;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.IndividualProduct-page > span p {
+  margin: 0;
+}
+
+/* ================= BODY ================= */
+.IndividualProduct-body {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* ================= CAROUSEL ================= */
+.carousel {
+  width: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(212,175,55,0.25);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+}
+
+.carousel img {
+  height: 460px;
+  object-fit: cover;
+  filter: brightness(0.88);
+}
+
+/* ================= PRODUCT DATA ================= */
+.IndividualProduct-data {
+  flex: 1;
+  background: linear-gradient(160deg, #111, #0b0b0b);
+  border-radius: 18px;
+  padding: 30px;
+  border: 1px solid rgba(212,175,55,0.2);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    0 18px 40px rgba(0,0,0,0.8);
+}
+
+.IndividualProduct-data h3 {
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  color: #f5e7b2;
+}
+
+.IndividualProduct-data p {
+  color: #cfcfcf;
+  font-size: 0.95rem;
+}
+
+/* ================= SELECT OPTIONS ================= */
+.IndividualProduct-data span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.IndividualProduct-data label {
+  font-weight: 600;
+  color: #d4af37;
+}
+
+.IndividualProduct-data select {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: #0e0e0e;
+  color: #f5f5f5;
+  border: 1px solid rgba(212,175,55,0.35);
+  outline: none;
+}
+
+/* ================= PRICE ================= */
+.IndividualProduct-data h5 {
+  margin-top: 16px;
+  font-size: 1.3rem;
+  color: #d4af37;
+  font-weight: 800;
+}
+
+.IndividualProduct-data s {
+  color: #8f8f8f;
+  margin-left: 6px;
+}
+
+.IndividualProduct-data p.delivery-date {
+  color: #f5e7b2;
+  font-weight: 600;
+}
+
+/* ================= BUTTONS ================= */
+.productBuyingButtons {
+  display: flex;
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.productBuyingButtons button {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 30px;
+  font-weight: 800;
+  border: 1.5px solid rgba(212,175,55,0.5);
+  background: linear-gradient(135deg, #c9a24d, #e6c77a);
+  color: #2b1f05;
+  transition: all 0.3s ease;
+}
+
+.productBuyingButtons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(212,175,55,0.4);
+}
+
+/* ================= MODAL ================= */
+.modal-content {
+  background: linear-gradient(160deg, #111, #0b0b0b);
+  color: #f5f5f5;
+  border-radius: 16px;
+  border: 1px solid rgba(212,175,55,0.35);
+}
+
+.modal-header,
+.modal-footer {
+  border-color: rgba(212,175,55,0.2);
+}
+
+.modal-title {
+  color: #f5e7b2;
+  font-weight: 700;
+}
+
+.modal-body label {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.modal-body input,
+.modal-body select {
+  background: #0e0e0e;
+  color: #f5f5f5;
+  border: 1px solid rgba(212,175,55,0.3);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .IndividualProduct-body {
+    flex-direction: column;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .carousel img {
+    height: 380px;
+  }
+}

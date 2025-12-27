@@ -1,0 +1,66 @@
+/* ================= ALL USERS PAGE ================= */
+.all-users-page {
+  background: #0b0b0b;
+  min-height: 100vh;
+  padding: 40px 70px;
+  color: #f5f5f5;
+}
+
+.all-users-page h3 {
+  color: #d4af37;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* ================= USER CARDS ================= */
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 26px;
+}
+
+/* ================= USER CARD ================= */
+.user-card {
+  background: #121212;
+  border: 1px solid #262626;
+  border-radius: 18px;
+  padding: 22px;
+  transition: all 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-6px);
+  border-color: #d4af37;
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+}
+
+/* USER DATA */
+.user-card span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-card h5 {
+  font-size: 13px;
+  color: #9a9a9a;
+  margin-bottom: 2px;
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #f5f5f5;
+  word-break: break-all;
+}
+
+/* ORDERS COUNT */
+.user-card span:last-child p {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .all-users-page {
+    padding: 20px;
+  }
+}

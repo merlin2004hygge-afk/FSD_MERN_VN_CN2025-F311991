@@ -1,0 +1,210 @@
+/* ===================== NAVBAR ===================== */
+.navbar {
+  background: linear-gradient(
+    135deg,
+    #6f5521 0%,
+    #b8963e 20%,
+    #f5e7b2 40%,
+    #d4af37 60%,
+    #b8963e 80%,
+    #6f5521 100%
+  );
+  padding: 14px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 6px 20px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* ===================== BRAND ===================== */
+.navbar h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  color: #2b1f05;
+  text-shadow: 0 1px 0 #fff2c6;
+}
+
+/* ===================== NAV CONTENT ===================== */
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* ===================== SEARCH ===================== */
+.nav-search {
+  position: relative;
+}
+
+#nav-search {
+  width: 280px;
+  padding: 10px 44px 10px 16px;
+  border-radius: 25px;
+  border: 2px solid #b8963e;
+  background: linear-gradient(180deg, #fff9e6, #f0ddb0);
+  color: #3a2a05;
+  font-size: 0.95rem;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+}
+
+#nav-search::placeholder {
+  color: #7a5a1a;
+}
+
+#nav-search:focus {
+  border-color: #ffd86b;
+  box-shadow: 0 0 0 3px rgba(255, 216, 107, 0.4);
+}
+
+.nav-search-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/* ===================== LOGIN BUTTON ===================== */
+.navbar .btn {
+  background: linear-gradient(
+    135deg,
+    #6f5521,
+    #d4af37,
+    #fff1b8,
+    #b8963e
+  );
+  border: 1.5px solid #8f6a1d;
+  color: #2b1f05;
+  font-weight: 800;
+  padding: 9px 26px;
+  border-radius: 25px;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.6),
+    0 6px 16px rgba(0,0,0,0.35);
+}
+
+/* ===================== ICONS ===================== */
+.nav-content-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-icons {
+  font-size: 1.6rem;
+  color: #2b1f05;
+  text-shadow: 0 1px 0 #fff2c6;
+}
+
+/* ===================== PROFILE ===================== */
+.nav-profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.nav-profile p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* ===================== CART ===================== */
+.nav-cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: linear-gradient(135deg, #fff2c6, #d4af37);
+  color: #3a2a05;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 3px 6px;
+  border-radius: 50%;
+  border: 1.5px solid #8f6a1d;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* ===================== SEARCH RESULT ===================== */
+.search-result-data {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  background: linear-gradient(180deg, #fff9e6, #f0ddb0);
+  border: 1.5px solid #b8963e;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  color: #3a2a05;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-result-data-close-btn {
+  cursor: pointer;
+  color: #8f6a1d;
+}
+
+/* ===================== ADMIN NAVBAR ===================== */
+.navbar-admin {
+  background: linear-gradient(
+    135deg,
+    #6f5521,
+    #b8963e,
+    #f5e7b2,
+    #b8963e,
+    #6f5521
+  );
+  padding: 14px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.navbar-admin h3 {
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+.navbar-admin ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+}
+
+.navbar-admin ul li {
+  font-weight: 700;
+  cursor: pointer;
+  color: #2b1f05;
+}
+
+.navbar-admin ul li:hover {
+  color: #ffffff;
+}
+

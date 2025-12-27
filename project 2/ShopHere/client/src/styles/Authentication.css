@@ -1,0 +1,115 @@
+/* ================= PAGE ================= */
+.AuthenticatePage {
+  min-height: 100vh;
+  background: #0b0b0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* ================= FORM BOX ================= */
+.authForm {
+  width: 100%;
+  max-width: 400px;
+  background: #111;
+  border: 1.5px solid #d4af37; /* GOLD OUTLINE */
+  border-radius: 14px;
+  padding: 28px 26px;
+  color: #f5f5f5;
+}
+
+/* ================= TITLE ================= */
+.authForm h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #d4af37;
+  margin-bottom: 22px;
+}
+
+/* ================= LABELS (Email / Password) ================= */
+.authFormInputs label {
+  display: block;
+  position: static;           /* remove floating behavior */
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #d4af37;             /* gold heading */
+  font-weight: 500;
+}
+
+/* ================= INPUT WRAPPER ================= */
+.authFormInputs {
+  margin-bottom: 16px;
+}
+
+/* ================= INPUTS ================= */
+.authFormInputs input,
+.authForm select {
+  width: 100%;
+  background: #0b0b0b !important;
+  border: 1px solid #2f2f2f;
+  color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+/* Placeholder */
+.authFormInputs input::placeholder {
+  color: #777;
+}
+
+/* Focus */
+.authFormInputs input:focus,
+.authForm select:focus {
+  outline: none;
+  border-color: #d4af37;
+}
+
+/* ================= BUTTON ================= */
+.authForm button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 11px;
+  border-radius: 8px;
+  background: #d4af37;
+  color: #0b0b0b;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+
+.authForm button:hover {
+  background: #c9a635;
+}
+
+/* ================= SWITCH TEXT ================= */
+.authForm p {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.authForm p span {
+  color: #d4af37;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.authForm p span:hover {
+  text-decoration: underline;
+}
+
+/* ================= SELECT ================= */
+.authForm select {
+  cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 420px) {
+  .authForm {
+    padding: 24px 20px;
+  }
+}

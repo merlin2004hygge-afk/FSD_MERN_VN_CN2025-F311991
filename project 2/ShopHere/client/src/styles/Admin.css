@@ -1,0 +1,109 @@
+/* ================= ADMIN PAGE ================= */
+.admin-page {
+  background: #0b0b0b;
+  min-height: 100vh;
+  padding: 40px 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  color: #f5f5f5;
+}
+
+/* ================= ADMIN CARD ================= */
+.admin-home-card {
+  background: #121212;
+  border: 1px solid #262626;
+  border-radius: 18px;
+  padding: 26px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.admin-home-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+  border-color: #d4af37;
+}
+
+/* CARD TITLE */
+.admin-home-card h5 {
+  font-size: 16px;
+  color: #9a9a9a;
+  margin-bottom: 10px;
+  letter-spacing: 0.4px;
+}
+
+/* CARD VALUE */
+.admin-home-card p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #d4af37;
+  margin-bottom: 16px;
+}
+
+/* CARD BUTTON */
+.admin-home-card button {
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 8px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admin-home-card button:hover {
+  background: rgba(212, 175, 55, 0.12);
+}
+
+/* ================= BANNER INPUT ================= */
+.admin-banner-input {
+  grid-column: span 2;
+  text-align: left;
+}
+
+.admin-banner-input h5 {
+  color: #d4af37;
+  margin-bottom: 14px;
+}
+
+/* INPUT */
+.admin-banner-input input {
+  background: #0b0b0b;
+  border: 1px solid #333;
+  color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.admin-banner-input input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.35);
+}
+
+/* UPDATE BUTTON */
+.admin-banner-input button {
+  margin-top: 16px;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: #0b0b0b;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.admin-banner-input button:hover {
+  opacity: 0.9;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .admin-page {
+    padding: 20px;
+  }
+
+  .admin-banner-input {
+    grid-column: span 1;
+  }
+}
